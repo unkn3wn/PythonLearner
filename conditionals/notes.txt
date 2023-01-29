@@ -1,0 +1,13 @@
+">" this symbol is a greater than sign
+
+">=" greater than or equal too
+
+"<" less than
+
+"<=" less than or equal to 
+
+"=" assignment
+
+"==" compare left and right 
+
+"!=" note equal to 
