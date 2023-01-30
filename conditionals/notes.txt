@@ -11,3 +11,16 @@
 "==" compare left and right 
 
 "!=" note equal to 
+
+
+"if" statement
+
+"elif" statement = else if
+
+"else" statement
+
+
+
+ARATHMETIC SYMBOL
+
+"%" this is a module calculate a remainder 
