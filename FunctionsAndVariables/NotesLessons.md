@@ -8,4 +8,3 @@ What is a CLI ?
 
     * to run a program in the terminal you have to run "python FILENAME.py"
 
-FUNCTION - action or word that lets you do something in the program
