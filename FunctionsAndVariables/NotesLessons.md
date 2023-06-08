@@ -19,3 +19,9 @@
     ```
     # This is a comment using number sign
     ```
+
+    ```
+    """
+        anything in between 3 quotes is also a comment 
+    """
+    ```
