@@ -1,10 +1,21 @@
-What is a text Editor ?
+### What is a text Editor ?
 
-    - program to write text
+    program to write text
 
-What is a CLI ?
+### What is a CLI ?
 
-    - Command Line Interface
+    Command Line Interface
 
-    * to run a program in the terminal you have to run "python FILENAME.py"
+    to run a program in the terminal you have to run "python FILENAME.py"
 
+
+### assignment
+ 
+
+    one "=" means assigning
+
+### Comments 
+
+    ```
+    # This is a comment using number sign
+    ```
