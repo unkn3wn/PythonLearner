@@ -25,7 +25,7 @@
   print(myFloat)
   ```
 
-# String Methods
+## String Methods
 
 ### str.capitalize()
 
@@ -68,7 +68,7 @@
 
 * if no encode is applied by default it will use UTF8 (unicode Transformation Format-8 bit)
 
-For Example
+> For Example
 
 1. ASCII (American Standard Code For Information Interchange)
 
@@ -135,3 +135,33 @@ For Example
     ```
 * OUTPUT:b'\xe9
  * Explanation: In this example, we have a string with an accented letter, "é". When we call encode("iso-8859-1"), it converts the string into ISO-8859-1 encoding. ISO-8859-1 is an 8-bit encoding that can represent characters used in Western European languages. The resulting byte string contains a single byte representing the encoded character.
+
+
+ ### str.strip()
+
+ * Gets rid of any white spaces in your code 
+
+  ``` Python
+  name  = input("Whats your name? ").strip()
+  print(f"hello, {name}")
+  ```
+
+* INPUT: "      JEFF JEFF"
+* OUTPUT: "HELLO JEFF JEFF"
+
+* in this example it got rid of all the white spacing before jeff
+
+
+### str.split()
+
+* splits string at certain seperator
+
+  ```Python
+  name = input("Whats your name? ").title()
+
+  first, last = name.split(" ")
+
+  print(f"Hello, {first}")
+  ```
+* INPUT : "CHAPO GUZMAN" 
+* OUTPUT "Hello Chapo" 
