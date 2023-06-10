@@ -35,14 +35,11 @@
     z = int(x) + int(y)
     print(z)
     ```
-__or__
-
+* either one of these works the same thing 
     ```Python
     x = int(input("x"))
     y = int(input("y"))
-
     z= x + y
-
     print(z)
     ```
 
