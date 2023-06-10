@@ -15,16 +15,42 @@
     one "=" means assigning
 
 ### Comments 
+    ``` Python
+        # This is a comment using number sign
+    ```
 
-    ```
-    # This is a comment using number sign
-    ```
-
-    ```
+    ```Python
     """
         anything in between 3 quotes is also a comment 
     """
     ```
+
+## Integers
+
+* int function
+
+    ```Python
+    x = input("x = ")
+    y = input("y = ")
+    z = int(x) + int(y)
+    print(z)
+    ```
+__or__
+
+    ```Python
+    x = int(input("x"))
+    y = int(input("y"))
+
+    z= x + y
+
+    print(z)
+    ```
+
+* this is how you turn strings into integers by using the "int" function
+
+
+
+
 
 
 
