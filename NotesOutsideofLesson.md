@@ -165,3 +165,52 @@
   ```
 * INPUT : "CHAPO GUZMAN" 
 * OUTPUT "Hello Chapo" 
+
+
+## Conditionals
+
+### Matimatical questions 
+
+* Equals: a == b
+* Not Equals: a != b
+* Less than: a < b
+* Less than or equal to: a <= b
+* Greater than: a > b
+* Greater than or equal to: a >= b
+
+#### if statements
+* example of a if statement
+    ```Python
+    x = int(input("What X? "))
+    y = int(input("Whats Y? "))
+    if x < y:
+        print("x is less than y")
+    ```
+
+
+* if true it will print the mesage
+
+#### elif statements
+
+    ```Python
+    age = int(input("age? "))
+    if age < 18:
+        print("you are underage")
+    elif age >= 18:
+        print("you are old of age") 
+    ```
+
+### Loops 
+
+* reapting something over and over until particular condition is satisfied
+### while loop
+
+  ```Python
+  # we have a variable of x we set it equal to zero
+  i = 0 
+  # while statement x < 3 we will print you dont know me son after each iteration we will add 1 to x so after 3 more iterations the statement will no longer be true so it stops.(remember we count from zero 0,1,2)
+  while i < 3 :
+    i = i + 1
+    print("You dont know me son")
+  ```
+ 
