@@ -180,6 +180,7 @@
 
 #### if statements
 * example of a if statement
+
     ```Python
     x = int(input("What X? "))
     y = int(input("Whats Y? "))
@@ -192,6 +193,8 @@
 
 #### elif statements
 
+* example of else if statement
+
     ```Python
     age = int(input("age? "))
     if age < 18:
@@ -200,17 +203,17 @@
         print("you are old of age") 
     ```
 
-### Loops 
+## Loops 
 
 * reapting something over and over until particular condition is satisfied
-### while loop
+#### while loop
 
-  ```Python
-  # we have a variable of x we set it equal to zero
-  i = 0 
-  # while statement x < 3 we will print you dont know me son after each iteration we will add 1 to x so after 3 more iterations the statement will no longer be true so it stops.(remember we count from zero 0,1,2)
-  while i < 3 :
-    i = i + 1
-    print("You dont know me son")
-  ```
+    ```Python
+    # we have a variable of x we set it equal to zero
+    i = 0 
+    # while statement x < 3 we will print you dont know me son after each iteration we will add 1 to x so after 3 more iterations the statement will no longer be true so it stops.(remember we count from zero 0,1,2)
+    while i < 3 :
+      i = i + 1
+      print("You dont know me son")
+    ```
  
