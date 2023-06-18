@@ -206,7 +206,9 @@
 ## Loops 
 
 * reapting something over and over until particular condition is satisfied
+
 #### while loop
+* example of a while loop 
 
     ```Python
     # we have a variable of x we set it equal to zero
