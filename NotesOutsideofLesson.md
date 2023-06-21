@@ -207,15 +207,56 @@
 
 * reapting something over and over until particular condition is satisfied
 
-#### while loop
-* example of a while loop 
+#### WHILE LOOP
+* Example of a WHILE LOOP 
 
     ```Python
     # we have a variable of x we set it equal to zero
     i = 0 
     # while statement x < 3 we will print you dont know me son after each iteration we will add 1 to x so after 3 more iterations the statement will no longer be true so it stops.(remember we count from zero 0,1,2)
     while i < 3 :
-      i = i + 1
+      i += 1
       print("You dont know me son")
     ```
  
+ #### FOR LOOP
+
+* example of a FOR LOOP
+
+    ```Python
+    # we make a list of strings
+    names = ['ferni', 'fer', "ferasdf"]
+    # we loop through all of names in list
+    for i in names:
+      # we print all the names of the list 
+      print(i)
+    ```
+ 
+
+
+#### List Dictionaries
+
+* What is a List dictonary 
+
+> Yes, that's right! The concept of a list of dictionaries is commonly used in programming as well. In programming, you can create a list to store multiple dictionaries, just like having a collection of separate pages in a notebook. Each dictionary in the list represents an individual item or element, and you can store different kinds of information about each item within the dictionary. The dictionary allows you to associate different "keys" (such as name, age, and favorite hobby) with their corresponding "values" (the actual data for each key). For example, let's say you have a program that manages information about students in a class. You can use a list of dictionaries to store the details of each student. Each dictionary in the list would represent a student, and the keys within the dictionary could be things like "name," "age," and "grade." By using a list of dictionaries, you can easily access and manipulate the information of each student. You can search for a particular student's dictionary within the list, and then retrieve or modify their details using the associated keys.So, in programming, a list of dictionaries is a way to organize and work with multiple sets of related data, just like your notebook analogy. It's a handy tool for storing and managing collections of information.
+
+* Example 
+  ```Python
+  # we have a list dict which stores 3 keys, firstName, lastName, Works
+  # than we store the value for them 
+  # "None" represents the absence of a value or specfic data 
+  students = [
+	    {"firstName": "Hermione", "lastName":"Goggins", "Works":"no"},
+	    {"firstName": "Perm", "lastName":"Hub", "Works":"yes"},
+	    {"firstName": "Jerm", "lastName":"Voke", "Works": None},
+  ]
+
+  # we loop through the data which will only print firstName and Works in this case
+
+  # if you wanted to print out all the dict you would loop like this instead
+  # for student in studnets:
+  #   print(studnet)
+
+  for student in students:
+	  print(student["firstName"], student["Works"], sep=", ")
+  ```
